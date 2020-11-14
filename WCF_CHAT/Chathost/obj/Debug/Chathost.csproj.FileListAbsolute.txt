@@ -1,0 +1,11 @@
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\bin\Debug\Chathost.exe.config
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\bin\Debug\Chathost.exe
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\bin\Debug\Chathost.pdb
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\bin\Debug\WCF_CHAT.dll
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\bin\Debug\WCF_CHAT.pdb
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\bin\Debug\WCF_CHAT.dll.config
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\obj\Debug\Chathost.csprojAssemblyReference.cache
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\obj\Debug\Chathost.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\obj\Debug\Chathost.csproj.CopyComplete
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\obj\Debug\Chathost.exe
+C:\Users\Михаил\source\repos\WCF_CHAT\Chathost\obj\Debug\Chathost.pdb
