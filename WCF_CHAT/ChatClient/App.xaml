@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:ChatClient"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+            <SolidColorBrush x:Name="txtColor"  Color="Black" x:Key="txtColor" />
+
+        <Style x:Key="ChangerColor" TargetType="{x:Type Control}" >
+            <Setter Property="Foreground" Value="{DynamicResource txtColor}" />
+
+        </Style>
     </Application.Resources>
 </Application>

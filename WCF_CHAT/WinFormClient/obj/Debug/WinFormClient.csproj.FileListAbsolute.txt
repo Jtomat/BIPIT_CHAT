@@ -1,0 +1,9 @@
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\bin\Debug\WinFormClient.exe.config
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\bin\Debug\WinFormClient.exe
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\bin\Debug\WinFormClient.pdb
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\obj\Debug\WinFormClient.Form1.resources
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\obj\Debug\WinFormClient.Properties.Resources.resources
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\obj\Debug\WinFormClient.csproj.GenerateResource.cache
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\obj\Debug\WinFormClient.csproj.CoreCompileInputs.cache
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\obj\Debug\WinFormClient.exe
+D:\Sourse\VS\repos\WCF_CHAT\WinFormClient\obj\Debug\WinFormClient.pdb

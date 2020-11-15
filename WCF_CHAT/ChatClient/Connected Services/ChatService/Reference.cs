@@ -27,6 +27,12 @@ namespace ChatClient.ChatService {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServiceChater/Disconnect", ReplyAction="http://tempuri.org/IServiceChater/DisconnectResponse")]
         System.Threading.Tasks.Task DisconnectAsync(int id);
         
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IServiceChater/GetHistory")]
+        void GetHistory(int id);
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IServiceChater/GetHistory")]
+        System.Threading.Tasks.Task GetHistoryAsync(int id);
+        
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IServiceChater/SendMessage")]
         void SendMessage(string mes, int id);
         
@@ -83,6 +89,14 @@ namespace ChatClient.ChatService {
         
         public System.Threading.Tasks.Task DisconnectAsync(int id) {
             return base.Channel.DisconnectAsync(id);
+        }
+        
+        public void GetHistory(int id) {
+            base.Channel.GetHistory(id);
+        }
+        
+        public System.Threading.Tasks.Task GetHistoryAsync(int id) {
+            return base.Channel.GetHistoryAsync(id);
         }
         
         public void SendMessage(string mes, int id) {

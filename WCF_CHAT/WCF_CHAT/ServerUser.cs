@@ -13,6 +13,9 @@ namespace WCF_CHAT
 
         public int ID { get; set; }
         public string Name { get; set; }
+        public bool Connected=false;
         public OperationContext OperationContext { get => _operationContext; set => _operationContext = value; }
+
+        public List<string> MesHitory = new List<string>();
     }
 }

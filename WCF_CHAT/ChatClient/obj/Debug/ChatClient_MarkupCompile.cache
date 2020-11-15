@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Михаил\source\repos\WCF_CHAT\ChatClient\obj\Debug\
+D:\Sourse\VS\repos\WCF_CHAT\ChatClient\obj\Debug\
 ChatClient
 none
 false
 DEBUG;TRACE
-C:\Users\Михаил\source\repos\WCF_CHAT\ChatClient\App.xaml
+D:\Sourse\VS\repos\WCF_CHAT\ChatClient\App.xaml
 11151548125
 
 61290799660
 151842682125
 MainWindow.xaml;
 
-False
+True
 

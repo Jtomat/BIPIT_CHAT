@@ -1,0 +1,66 @@
+[22:22-15.11.2020] [WARN] HOST running on 192.168.56.1.
+[22:22-15.11.2020] [WARN] HOST running on 192.168.56.1.
+[22:22-15.11.2020] [INFO] Server send message: ''Вася join the chat.''
+[22:22-15.11.2020] [INFO] Вася join the chat.
+[22:22-15.11.2020] [INFO] Server send message: ''Валера join the chat.''
+[22:22-15.11.2020] [INFO] Валера join the chat.
+[22:23-15.11.2020] [INFO] User 2:Валера send message: ''Привет''
+[22:23-15.11.2020] [INFO] User 1:Вася send message: ''Привет''
+[22:23-15.11.2020] [INFO] User 2:Валера send message: ''Проверка''
+[22:23-15.11.2020] [INFO] User 1:Вася send message: ''Пока''
+[22:24-15.11.2020] [INFO] User 2:Валера send message: ''Пока''
+[22:24-15.11.2020] [INFO] Server send message: ''Валера left the chat.''
+[22:24-15.11.2020] [INFO] Валера left the chat.
+[22:24-15.11.2020] [INFO] Server send message: ''Вася left the chat.''
+[22:24-15.11.2020] [INFO] Вася left the chat.
+[22:24-15.11.2020] [INFO] Server send message: ''Anonimus#227 join the chat.''
+[22:24-15.11.2020] [INFO] Anonimus#227 join the chat.
+[22:24-15.11.2020] [INFO] Server send message: ''Anonimus#227 left the chat.''
+[22:24-15.11.2020] [INFO] Anonimus#227 left the chat.
+[22:25-15.11.2020] [WARN] HOST running on 192.168.56.1.
+[22:25-15.11.2020] [INFO] Server send message: ''Anonimus#69 join the chat.''
+[22:25-15.11.2020] [INFO] Anonimus#69 join the chat.
+[22:25-15.11.2020] [INFO] Server send message: ''Anonimus#69 left the chat.''
+[22:25-15.11.2020] [INFO] Anonimus#69 left the chat.
+[22:26-15.11.2020] [INFO] Server send message: ''Вася join the chat.''
+[22:26-15.11.2020] [INFO] Вася join the chat.
+[22:26-15.11.2020] [INFO] Server send message: ''Вася left the chat.''
+[22:26-15.11.2020] [INFO] Вася left the chat.
+[22:26-15.11.2020] [INFO] Server send message: ''Anonimus#36 join the chat.''
+[22:26-15.11.2020] [INFO] Anonimus#36 join the chat.
+[22:26-15.11.2020] [INFO] Server send message: ''Anonimus#36 left the chat.''
+[22:26-15.11.2020] [INFO] Anonimus#36 left the chat.
+[22:26-15.11.2020] [INFO] Server send message: ''Валера join the chat.''
+[22:26-15.11.2020] [INFO] Валера join the chat.
+[22:26-15.11.2020] [INFO] Server send message: ''Валера left the chat.''
+[22:26-15.11.2020] [INFO] Валера left the chat.
+[22:30-15.11.2020] [WARN] HOST running on 192.168.56.1.
+[22:30-15.11.2020] [INFO] Server send message: ''Anonimus#228 join the chat.''
+[22:30-15.11.2020] [INFO] Anonimus#228 join the chat.
+[22:30-15.11.2020] [INFO] User 3:Anonimus#228 send message: ''Проверка 2''
+[22:30-15.11.2020] [INFO] Server send message: ''Anonimus#228 left the chat.''
+[22:30-15.11.2020] [INFO] Anonimus#228 left the chat.
+[22:31-15.11.2020] [WARN] HOST running on 192.168.56.1.
+[22:31-15.11.2020] [INFO] Server send message: ''Anonimus#205 join the chat.''
+[22:31-15.11.2020] [INFO] Anonimus#205 join the chat.
+[22:31-15.11.2020] [INFO] User 4:Anonimus#205 send message: ''Проверка 3''
+[22:31-15.11.2020] [INFO] Server send message: ''Anonimus#205 left the chat.''
+[22:31-15.11.2020] [INFO] Anonimus#205 left the chat.
+[22:34-15.11.2020] [WARN] HOST running on 192.168.56.1.
+[22:34-15.11.2020] [INFO] Server send message: ''Anonimus#147 join the chat.''
+[22:34-15.11.2020] [INFO] Anonimus#147 join the chat.
+[22:34-15.11.2020] [INFO] User 5:Anonimus#147 send message: ''Проверка 4''
+[22:34-15.11.2020] [INFO] Server send message: ''Anonimus#147 left the chat.''
+[22:34-15.11.2020] [INFO] Anonimus#147 left the chat.
+[22:35-15.11.2020] [WARN] HOST running on 192.168.56.1.
+[22:35-15.11.2020] [INFO] Server send message: ''Anonimus#200 join the chat.''
+[22:35-15.11.2020] [INFO] Anonimus#200 join the chat.
+[22:35-15.11.2020] [INFO] Server send message: ''Anonimus#200 left the chat.''
+[22:35-15.11.2020] [INFO] Anonimus#200 left the chat.
+[22:35-15.11.2020] [INFO] Server send message: ''Anonimus#42 join the chat.''
+[22:35-15.11.2020] [INFO] Anonimus#42 join the chat.
+[22:36-15.11.2020] [INFO] User 7:Anonimus#42 send message: ''Проверка скрола''
+[22:36-15.11.2020] [INFO] User 7:Anonimus#42 send message: ''Проверка скрола 2''
+[22:36-15.11.2020] [INFO] User 7:Anonimus#42 send message: ''Проверка скрола 3''
+[22:36-15.11.2020] [INFO] Server send message: ''Anonimus#42 left the chat.''
+[22:36-15.11.2020] [INFO] Anonimus#42 left the chat.

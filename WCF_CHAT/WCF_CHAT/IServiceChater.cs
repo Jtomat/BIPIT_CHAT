@@ -17,7 +17,8 @@ namespace WCF_CHAT
 
         [OperationContract]
         void Disconnect(int id);
-
+        [OperationContract(IsOneWay = true)]
+        void GetHistory(int id);
 
         [OperationContract(IsOneWay = true)]
         void SendMessage(string mes, int id);

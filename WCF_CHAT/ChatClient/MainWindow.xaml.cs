@@ -23,6 +23,7 @@ namespace ChatClient
         ChatService.ServiceChaterClient _chatService;
         bool _isConnected = false;
         int _user_id;
+        bool isAnonimus=false;
         public MainWindow()
         {
             InitializeComponent();
@@ -44,12 +45,15 @@ namespace ChatClient
         {
             if (!_isConnected)
             {
-                if(_chatService==null)
-                    _chatService = new ChatService.ServiceChaterClient(
-                        new System.ServiceModel.InstanceContext(this));
+                
                 _user_id = _chatService.Connect(UserNameBox.Text==""?"Anonimus":UserNameBox.Text);
-                UserNameBox.IsEnabled = false;
-                ConDisConButton.Content = "Disconnect";
+                if (_user_id != -1)
+                {
+                    UserNameBox.IsEnabled = false;
+                    ConDisConButton.Content = "Disconnect";
+                    ChatMessageList.Items.Clear();
+                    _chatService.GetHistory(_user_id);
+                }
             }
             else 
             {
@@ -59,6 +63,8 @@ namespace ChatClient
                 ConDisConButton.Content = "Connect";
             }
             _isConnected = !_isConnected;
+            if ((UserNameBox.Text == "Anonimus"|| UserNameBox.Text == ""))
+                CheckAnonimus();
         }
 
         private void UserNameBox_GotFocus(object sender, RoutedEventArgs e)
@@ -69,6 +75,8 @@ namespace ChatClient
         public void MessageCallBack(string mes)
         {
             ChatMessageList.Items.Add(mes);
+            ChatMessageList.Items.MoveCurrentToLast();
+            ChatMessageList.ScrollIntoView(ChatMessageList.Items.CurrentItem);
         }
 
         private void ConDisConButton_Click(object sender, RoutedEventArgs e)
@@ -90,6 +98,28 @@ namespace ChatClient
         {
             if (_isConnected)
                 _chatService.Disconnect(_user_id);
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+                _chatService = new ChatService.ServiceChaterClient(
+                    new System.ServiceModel.InstanceContext(this));
+        }
+
+        void CheckAnonimus()
+        {
+            isAnonimus = !isAnonimus;
+            if (isAnonimus)
+            {
+                FormBack.Background = new SolidColorBrush(Colors.DimGray);
+                Application.Current.Resources["txtColor"] = new SolidColorBrush(Colors.White);
+            }
+            else
+            {
+                FormBack.Background = new SolidColorBrush(Colors.White);
+                Application.Current.Resources["txtColor"] = new SolidColorBrush(Colors.Black);
+            }
+            
         }
     }
 }

@@ -13,6 +13,8 @@ namespace Chathost
         {
             using (var host = new ServiceHost(typeof(WCF_CHAT.ServiceChater)))
             {
+                host.OpenTimeout = new TimeSpan(0, 2, 0);
+                host.CloseTimeout = new TimeSpan(0, 2, 0);
                 host.Open();
                 Console.ReadLine();
                 host.Close();
